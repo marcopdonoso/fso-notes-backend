@@ -6,13 +6,13 @@ module.exports = {
 	},
 	overrides: [],
 	parserOptions: {
-		ecmaVersion: "latest",
+		ecmaVersion: 'latest',
 	},
 	rules: {
-		indent: ["error", "tab"],
-		"linebreak-style": ["error", "unix"],
-		quotes: ["error", "double"],
-		semi: ["error", "always"],
+		indent: ['error', 'tab'],
+		'linebreak-style': ['error', 'unix'],
+		quotes: ['error', 'single'],
+		semi: ['error', 'never'],
 	},
-	extends: ["eslint:recommended", "prettier"],
-};
+	extends: ['eslint:recommended', 'prettier'],
+}
